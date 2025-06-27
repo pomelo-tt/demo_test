@@ -22,10 +22,6 @@ func main() {
 	expireMillis := expiration.Milliseconds()
 	fmt.Println(expireMillis)
 	fmt.Println(res)
-	res1 := [][]int{}
-    path := []int{}
-	res1 = append(res1, append([]int(nil), path...))
-	fmt.Println(res1)
 }
 
 
